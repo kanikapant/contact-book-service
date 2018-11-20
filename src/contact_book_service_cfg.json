@@ -1,0 +1,19 @@
+{
+    "ListenURL": ":80",
+    "DebugHeaders": true,
+    "URLPrefix": "/contactbook",
+    "APIVersion": "/v1",
+    "LogLevel": "DEBUG",
+    "LogFilePath": "contactbook-service.log",
+    "LogMaxFileSize": 10,
+    "LogKeepOldFiles": 5,
+    "CassandraHosts": ["localhost:9042"],
+    "CassandraKeyspace": "contact_book_service_db",
+    "RequestTimeout": 10,
+    "DefaultLanguage": "en-US",
+     "Version":{
+        "SolutionName":"ContactBookService",
+        "ServiceName":"Contact-Book Micro-Service",
+        "ServiceProvider":"Directory Keepers LLC"
+    }
+}
